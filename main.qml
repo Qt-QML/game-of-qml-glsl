@@ -25,6 +25,7 @@ ApplicationWindow {
 
     GameOfGLSL {
         anchors.fill: parent
+        focus: true
     }
 
     MessageDialog {
