@@ -52,7 +52,7 @@ Rectangle {
 
                 if(autoDraw) {
                     float rnd1 = mod(fract(sin(dot(position + time * 0.001, vec2(14.9898,78.233))) * 43758.5453), 1.0);
-                    if (rnd1 > length(position-mousePosition)*40) {
+                    if (rnd1 > length(position-mousePosition)*40.0) {
                         gl_FragColor = live;
                         return;
                     }
